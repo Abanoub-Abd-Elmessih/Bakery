@@ -1,0 +1,251 @@
+/* Reset */
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+img {
+  display: block;
+}
+/* Global style */
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+p {
+  color: #686868;
+  font-size: 17px;
+}
+h2 {
+  padding-bottom: 30px;
+}
+h4 {
+  color: white;
+}
+.line-block {
+  display: inline-block;
+}
+li {
+  list-style: none;
+}
+.co-gray {
+  border: 0.5px solid #686868;
+}
+/* Padding */
+.p-100 {
+  padding: 100px 0;
+}
+.p-80 {
+  padding: 80px 0;
+}
+.p-50 {
+  padding: 50px 0;
+}
+/* end padding */
+/* Width */
+.w-100 {
+  width: 80%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-23 {
+  width: 23%;
+}
+.w-25 {
+  width: 25%;
+}
+/* end width */
+.text-center {
+  text-align: center;
+}
+/* Background Color */
+.bg-brown {
+  background-color: #8e7754;
+}
+.bg-light {
+  background-color: #f8f8f8;
+}
+.bg-gray {
+  background-color: #403d38;
+}
+/* End Background Color */
+/* Float */
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.clear-fix {
+  clear: both;
+}
+/* End Float */
+/* End Global style */
+/* start home section */
+.home-section {
+  background-image: url(../img/drew-coffman-1872.jpg);
+  height: 84vh;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+.overlay {
+  position: absolute;
+  height: 84vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.navbar {
+  width: 85%;
+  margin: auto;
+}
+.nav-logo img {
+  height: 48px;
+  padding: 20px;
+}
+.nav-links ul {
+  list-style: none;
+}
+.nav-links ul li {
+  display: inline-block;
+  padding: 27px 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+.nav-links li:hover {
+  color: #9a805a;
+}
+.home-page {
+  border-top: #9a805a 4px solid;
+  display: inline-block;
+}
+.family-bakery {
+  margin: 170px 0 115px;
+}
+.family-bakery h1 {
+  font-size: 76px;
+}
+.home-para {
+  color: white;
+  margin: 30px 0;
+  font-size: 20px;
+}
+.family-button {
+  padding: 18px 28px;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: transparent;
+  border: white 2px solid;
+  color: white;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.special-button {
+  background-color: #8e7754;
+  border: none;
+  padding: 19px 29px;
+}
+.animated-button button {
+  padding: 0;
+  border-radius: 30px;
+  width: 34px;
+  height: 52px;
+  background-color: transparent;
+  border: rgba(255, 255, 255, 0.813) 2px solid;
+  color: white;
+  cursor: pointer;
+}
+.ball {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.813);
+  margin-left: 9px;
+}
+/* End home section */
+/* Start about & Contact section class = list */
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+.list li img {
+  width: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  margin-right: 20px;
+}
+/* End about section list */
+/* start backing section class = item */
+.backing-item {
+  width: 33.3%;
+}
+.backing-item h3 {
+  padding: 30px 85px 20px 0;
+}
+.backing-item p {
+  padding: 0 85px 80px 0;
+}
+/* Start Contact-Section */
+.Contact-para {
+  margin-bottom: 20px;
+}
+/* End Contact-Section */
+/* start footer main section */
+.footer-main img {
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-main h4 {
+  margin-bottom: 20px;
+}
+.footer-main li {
+  margin: 10px 10px;
+  border-bottom: #686868 solid 1px;
+  vertical-align: middle;
+}
+.Contact-Details img {
+  width: 30px;
+  vertical-align: middle;
+}
+/* end of footer main */
+/* start of footer botom */
+.footer-bottom {
+  background-color: #353330;
+}
+.footer-bottom ul img {
+  width: 40px;
+  border-radius: 50%;
+  background-color: #484540;
+}
+.footer-bottom ul li {
+  display: inline-block;
+  margin: 25px 2px;
+}
+/* end of footer bottom */
+.fixed-box {
+  position: fixed;
+  top: 20%;
+  right: 0;
+  width: 42px;
+  height: 86px;
+  background-color: white;
+  border-radius: 3px;
+}
+.fixed-box li {
+  margin: 8px 0px 8px 5px;
+  cursor: pointer;
+}
